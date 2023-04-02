@@ -42,3 +42,92 @@
 .triangle::after {
     transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
 }
+
+.name h1 {
+    margin: auto;
+    width: 824px;
+    height: 129px;
+    /* left: 375px; */
+    /* top: 211px; */
+
+    /* font-family: 'Cabin'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size:6em;
+    line-height: 131px;
+    text-align: center;
+
+    color: black;
+}
+
+.name p {
+    width: 822px;
+    height: 10px;
+    left: 376px;
+    top: 190px;
+    margin: auto;
+
+    /* font-family: 'Cabin'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 49px;
+    text-align: center;
+
+    color: black;
+}
+
+.mosh {
+    width: 256px;
+    height: 256px;
+    transform: rotate(-30deg);
+}
+
+.img-and-work ul {
+    list-style-type: none;
+}
+
+.works {
+    background-color: #bebdbd;
+    color: aliceblue;
+    width: 318px;
+    height: 49px;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.my-works-top {
+    border-radius: 30px 30px 0px 0px;
+}
+.my-works-end {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.name-and-img {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin: 300px 0px 0px 0px;
+}
+
+.img-and-work {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.works:hover {
+    color: #595959;
+    /* animation: moveback .5s linear; */
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes moveback {
+    100% {
+        margin: 10px 5px 10px 5px;
+    }
+}
