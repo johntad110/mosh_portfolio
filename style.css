@@ -86,6 +86,13 @@
 .img-and-work ul {
     list-style-type: none;
 }
+.img-and-work a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.works:hover a {
+    color: #595959;
+}
 
 .works {
     background-color: #bebdbd;

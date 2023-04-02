@@ -1,0 +1,63 @@
+.text {
+    /* background-color: rgba(90, 100, 110, 0.5); */
+    height: 50vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 13vw;
+    font-style: normal;
+}
+
+.text p {
+    font-size: 3vw;
+}
+
+@media screen and (min-width: 1000px) {
+    .text h1 {
+        font-size: 99px;
+    }
+    .text p {
+        font-size: 20px;
+        font-weight: 450;
+    }
+}
+
+.gan-demo {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgba(202, 25, 25, 0.5); */
+    height: 50vh;
+}
+
+.img1, .img2 {
+    width: 256px;
+    height: 256px;
+    border-radius: 30px;
+}
+.arrow {
+    position: relative;
+    top: 100px;
+    width: 112px;
+    height: 56px;
+}
+
+
+.demo-link {
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+.gap {
+    height: 60px;
+}
